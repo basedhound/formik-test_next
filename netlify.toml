@@ -1,0 +1,10 @@
+[build]
+    command = "npm run build && npm run export"
+    publish = "out"
+Then add the export script to package.json;
+
+"scripts": {
+    "export": "next export"
+}, 
+
+
