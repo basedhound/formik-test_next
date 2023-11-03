@@ -1,12 +1,6 @@
 [build]
     command = "next build"
     publish = ".next"
-Then add the export script to package.json;
-
-"scripts": {
-    "export": "next export"
-}, 
-
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
