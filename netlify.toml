@@ -8,3 +8,5 @@ Then add the export script to package.json;
 }, 
 
 
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
