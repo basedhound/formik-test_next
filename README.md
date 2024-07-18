@@ -1,8 +1,97 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+    <a href="https://formik-fv.netlify.app" target="_blank">
+      <img src="public/preview.webp" alt="Project Banner">
+    </a>
+  <h3 align="center">React Form - Formik/Yup</h3>
+</div>
 
-## Getting Started
+##  <br /> 📋 <a name="table">Table of Contents</a>
 
-First, run the development server:
+- ✨ [Introduction](#introduction)
+- ⚙️ [Tech Stack](#tech-stack)
+- 📝 [Features](#features)
+- 🚀 [Quick Start](#quick-start)
+
+##  <br /> <a name="introduction">✨ Introduction</a>
+
+**[EN]** React form with robust validation using Formik for managing form state and Yup for schema-based validation. It showcases efficient form handling, including validation and submission, highlighting best practices for creating reliable and user-friendly forms in a React application.
+
+**[FR]** Formulaire React avec une validation robuste utilisant Formik pour la gestion du state du formulaire et Yup pour la validation basée sur un schéma. Bonne pratique assurant une gestion efficace des formulaires dans le cas d'une application React.
+
+##  <br /> <a name="tech-stack">⚙️ Tech Stack</a>
+
+- **Formik** is a popular React library for building forms, providing an efficient way to manage form state, handle submissions, and perform validation. Formik's intuitive API and component-based architecture simplify form creation, making it easier to create and maintain complex forms in React applications.
+
+- **Yup** is a JavaScript schema builder for value parsing and validation, widely used in conjunction with form libraries like Formik. It allows developers to define validation rules and schemas in a declarative manner, ensuring data integrity and simplifying the validation logic in forms.
+
+- **React** is a popular JavaScript library for building user interfaces, particularly single-page applications where data changes over time. React's component-based architecture allows developers to create reusable UI components, making development more efficient and the codebase easier to maintain. 
+
+- **Next.js** is a React framework known for its server-side rendering (SSR) and static site generation (SSG) capabilities, enhancing performance and SEO for web applications. It offers features like automatic code splitting, API routes for server-side logic, and a plugin system for extensibility.
+
+- **Tailwind** is a utility-first CSS framework that speeds up UI development by providing a set of pre-built utility classes. It allows developers to quickly build custom designs without writing traditional CSS, promoting rapid prototyping and design consistency.
+
+
+
+
+## <br/> <a name="features">📝 Features</a>
+
+### Formik
+
+👉 **Form State Management**: Formik simplifies the management of form state in React applications, handling input values, errors, and submission status.
+
+👉 **Form Validation**: It provides built-in utilities for validating form inputs and displaying error messages based on validation rules.
+
+👉 **Form Submission Handling**: Formik manages form submissions, including asynchronous submissions and handling form reset actions.
+
+👉 **Field-Level Validation**: It supports field-level validation, allowing developers to define validation rules specific to each form field.
+
+👉 **Integration with React Ecosystem**: Formik seamlessly integrates with other React libraries and frameworks, enhancing developer productivity and maintaining compatibility.
+
+### Yup
+
+👉 **Schema-Based Validation**: Yup enables developers to define validation schemas using a fluent API, specifying data types, required fields, and custom validation rules.
+
+👉 **Declarative Validation Rules**: It allows for declarative validation rules, making it easy to define complex validation logic in a readable and maintainable way.
+
+👉 **Asynchronous Validation**: Yup supports asynchronous validation, enabling validation rules that depend on server-side data or external APIs.
+
+👉 **Custom Error Messages**: Developers can customize error messages based on validation failures, providing clear feedback to users.
+
+👉 **Integration with Form Libraries**: Yup integrates seamlessly with form libraries like Formik, providing robust validation capabilities for forms built with these libraries.
+
+
+
+## <br /> <a name="quick-start">🚀 Quick Start</a>
+
+Follow these steps to set up the project locally on your machine.
+
+<br/>**Prerequisites**
+
+Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+<br/>**Cloning the Repository**
+
+```bash
+git clone {git remote URL}
+```
+
+<br/>**Installation**
+
+Let's install the project dependencies, from your terminal, run:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+<br/>**Running the Project**
+
+Installation will take a minute or two, but once that's done, you should be able to run the following command:
 
 ```bash
 npm run dev
@@ -10,26 +99,4 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# from-formik_next
+Open [`http://localhost:3000`](http://localhost:3000) in your browser to view the project.
