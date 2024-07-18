@@ -2,7 +2,7 @@
     <a href="https://formik-fv.netlify.app" target="_blank">
       <img src="public/preview.webp" alt="Project Banner">
     </a>
-  <h3 align="center">React Form - Formik/Yup</h3>
+  <h3 align="center">React Form: Formik + Yup</h3>
 </div>
 
 ##  <br /> 📋 <a name="table">Table of Contents</a>
