@@ -1,6 +1,6 @@
 <div align="center">
     <a href="https://formik-fv.netlify.app" target="_blank">
-      <img src="public/preview.webp" alt="Project Banner">
+      <img src="public/preview.png" alt="Project Banner">
     </a>
   <h3 align="center">React Form: Formik + Yup</h3>
 </div>
@@ -20,15 +20,15 @@
 
 ##  <br /> <a name="tech-stack">⚙️ Tech Stack</a>
 
-- **Formik** is a popular React library for building forms, providing an efficient way to manage form state, handle submissions, and perform validation. Formik's intuitive API and component-based architecture simplify form creation, making it easier to create and maintain complex forms in React applications.
+- [**Formik**](https://formik.org/docs/overview) is a popular React library for building forms, providing an efficient way to manage form state, handle submissions, and perform validation. Formik's intuitive API and component-based architecture simplify form creation, making it easier to create and maintain complex forms in React applications.
 
-- **Yup** is a JavaScript schema builder for value parsing and validation, widely used in conjunction with form libraries like Formik. It allows developers to define validation rules and schemas in a declarative manner, ensuring data integrity and simplifying the validation logic in forms.
+- [**Yup**](https://www.npmjs.com/package/yup/v/1.0.0-alpha.3) is a JavaScript schema builder for value parsing and validation, widely used in conjunction with form libraries like Formik. It allows developers to define validation rules and schemas in a declarative manner, ensuring data integrity and simplifying the validation logic in forms.
 
-- **React** is a popular JavaScript library for building user interfaces, particularly single-page applications where data changes over time. React's component-based architecture allows developers to create reusable UI components, making development more efficient and the codebase easier to maintain. 
+- [**React**](https://react.dev/reference/react) is a popular JavaScript library for building user interfaces, particularly single-page applications where data changes over time. React's component-based architecture allows developers to create reusable UI components, making development more efficient and the codebase easier to maintain. 
 
-- **Next.js** is a React framework known for its server-side rendering (SSR) and static site generation (SSG) capabilities, enhancing performance and SEO for web applications. It offers features like automatic code splitting, API routes for server-side logic, and a plugin system for extensibility.
+- [**Next.js**](https://nextjs.org/docs) is a React framework known for its server-side rendering (SSR) and static site generation (SSG) capabilities, enhancing performance and SEO for web applications. It offers features like automatic code splitting, API routes for server-side logic, and a plugin system for extensibility.
 
-- **Tailwind** is a utility-first CSS framework that speeds up UI development by providing a set of pre-built utility classes. It allows developers to quickly build custom designs without writing traditional CSS, promoting rapid prototyping and design consistency.
+- [**Tailwind**](https://v2.tailwindcss.com/docs) is a utility-first CSS framework that speeds up UI development by providing a set of pre-built utility classes. It allows developers to quickly build custom designs without writing traditional CSS, promoting rapid prototyping and design consistency.
 
 
 
